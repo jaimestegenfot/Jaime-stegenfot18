@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formula.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="principal">
+        <h1>contactame</h1>
+        <div>
+            <img src="imagenes/MESSI.jpg" alt="messi imgaenes">
+        </div>
+        <div class="formulario">
+            <form action="">
+                <p>
+                    <label for="registro"></label><br>
+                    <label for="">
+                        <input type="radio" name ="titulo" value="sr">sr
+                    </label>
+                    <label for="">
+                        <input type="radio" name ="titulo" value="sr">sra
+                    </label>
+                    <label for="">
+                        <input type="radio" name ="titulo" value="sr">srta
+                    </label>
+
+                </p>
+                <p>
+                    <label for="">nombres</label><br>
+                    <input type="text" name = "nombres" pattern="[A-Z a-z\s]+">
+                </p>
+                <p>
+                    <label for="" >apellidos</label><br>
+                    <input type="text" name = "apellidos" pattern="[A-Z a-z\s]+">
+                </p>
+                <p>
+                    <label for="email">email</label><br>
+                    <input type="email" name = "email" required>
+                </p>
+                <p>
+                    <label for="">direccion</label><br>
+                    <input type="text" name = "direccion">
+                </p>
+                <p>
+                    <label for="">telefono</label><br>
+                    <input type="text" name = "fono" required>
+                </p>
+                <p>
+                    <label for="">regiones</label><br>
+                    <select name="" id="">
+                        <option value="" >madre de dios</option>
+                        <option value="">puno</option>
+                        <option value="">cusco</option>
+                        <option value="">arequipa</option>
+                        <option value="">apurimac</option>
+                        <option selected="true">ucayali</option>
+                        <option value="">lima</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="submit" name = "button">
+                </p>
+
+
+            </form>
+        </div>
+    </section>
+</body>
+</html>
